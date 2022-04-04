@@ -11,19 +11,19 @@ public class Person {
         married = isMarried;
     }
 
-    String getName() {
+    public String getName() {
         return name;
     }
 
-    int getAge() {
+    public int getAge() {
         return age;
     }
 
-    boolean isMarried() {
+    public  boolean isMarried() {
         return married;
     }
 
-    boolean notMarried() {
+    public boolean notMarried() {
         return !married;
     }
 }
