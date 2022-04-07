@@ -6,9 +6,9 @@ public class Person {
     private boolean married;
 
     Person(String getName, int getAge, boolean isMarried) {
-        name = getName;
-        age = getAge;
-        married = isMarried;
+        this.name = getName;
+        this.age = getAge;
+        this.married = isMarried;
     }
 
     public String getName() {
@@ -19,11 +19,8 @@ public class Person {
         return age;
     }
 
-    public  boolean isMarried() {
+    public boolean isMarried() {
         return married;
     }
 
-    public boolean notMarried() {
-        return !married;
-    }
 }
